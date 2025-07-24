@@ -6,6 +6,7 @@ import tensorflow as tf
 from flask import Flask, jsonify, render_template
 import threading
 
+
 app = Flask(__name__)
 
 # Load the saved model and scaler
